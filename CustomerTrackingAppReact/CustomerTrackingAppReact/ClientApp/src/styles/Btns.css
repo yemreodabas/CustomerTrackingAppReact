@@ -1,0 +1,45 @@
+﻿.btns {
+    background: #3f1980;
+    border: 1px solid #6829d3;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px 11px 6px 11px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+.btns:hover {
+    background: #5422aa;
+}
+
+.page-number-btn {
+    padding: 2px 5px 2px 5px;
+    margin-right: 5px;
+}
+
+.customer-profile-btn-div {
+    position: absolute;
+    padding-right: 30px;
+    top: -50px;
+    right: -30px;
+}
+
+.customer-profile-btn {
+    display: block;
+    float: right;
+    margin-right: 15px;
+}
+
+.create-user-btn {
+    position: absolute;
+    margin-right: 30px;
+    top: -50px;
+    right: -30px;
+}
+
+.current-page {
+    color: white;
+    background: #3f1980;
+}
